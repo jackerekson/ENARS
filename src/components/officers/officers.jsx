@@ -1,4 +1,5 @@
 import React from 'react'
+import './officers.css'
 
 function Officers() {
   return (

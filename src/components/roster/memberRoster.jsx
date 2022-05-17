@@ -1,4 +1,5 @@
 import React from 'react'
+import './roster.css'
 
 function Members(memberRoster) {
   return (

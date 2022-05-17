@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import GetHamsInfo from './getHamsInfo';
+import './callSign.css'
 
 const CallSign = () => {
     const [info, setInfo] = useState(null)
@@ -8,6 +9,8 @@ const CallSign = () => {
 
     const handleChange = (e) => {
         setCallSign(e.target.value)
+        console.log(callSign)
+        console.log(e.target.value)
     }
 
     const handleClick = async () => {
@@ -24,7 +27,7 @@ const CallSign = () => {
         <div className='buttons gas'>
             <div className='gasButtons'>
                 <input type="text" placeholder='Call Sign' onChange={handleChange} />
-                <button onClick={handleClick} onChange={handleClick}>Submit</button>
+                <button onClick={handleClick}>Submit</button>
             </div>
             <div className='gasList'>
                 <GetHamsInfo info={info} />
