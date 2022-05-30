@@ -1,0 +1,20 @@
+.footer{
+    height: 10vh;
+}
+
+.footerContents{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 10vh;
+    color: rgb(207, 207, 207);
+    text-align: center;
+}

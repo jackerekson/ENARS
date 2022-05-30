@@ -3,10 +3,10 @@ import './footer.css'
 
 function Footer() {
   return (
-    <div className="App">
-        <div>
-            <h5>Email: enarsclub@gmail.com</h5>
-            <h5>Mailing: ENARS <br /> PO Box 151211 <br /> Ely, NV 89315</h5>
+    <div className="footer">
+        <div className='footerContents'>
+            <span className='contents'>Email: enarsclub@gmail.com</span>
+            <span className='contents'>Mailing: ENARS <br /> PO Box 151211 <br /> Ely, NV 89315</span>
         </div>
     </div>
   );

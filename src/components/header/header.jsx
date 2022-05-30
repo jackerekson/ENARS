@@ -17,17 +17,9 @@ const Header = ({ setUserId, userId }) => {
                 Member Roster
             </Link>
             <Link href= '/supportedRepeaters' className='item'>
-              <div class="dropdown">
-                <button class="dropbtn">Supported Repeaters</button>
-                <div class="dropdown-content">
-                  <a href="#caveMt">Cave Mt</a>
-                  <a href="#squawPk">Squaw Pk</a>
-                  <a href="#kimberlyPk">Kimberly Pk</a>
-                  <a href="#victoriaPk">Victoria Pk</a>
-                </div>
-              </div>
+              Supported Repeaters
             </Link>
-            <Link href='/DMR/APRS/Packet'>
+            <Link href='/DMR/APRS/Packet' className='item'>
               DMR/APRS/Packet
             </Link>
             <Link href='/callSign' className='item'>

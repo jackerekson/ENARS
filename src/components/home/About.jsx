@@ -3,7 +3,7 @@ import './about.css'
 
 function About() {
   return (
-    <div className="App">
+    <div className="home">
       <div>
         <h3>
           Eastern Nevada Amature Radio Society, 
