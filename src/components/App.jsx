@@ -6,9 +6,10 @@ import About from './home/About';
 import CallSign from './callSign/api/FindByCallSign/radioCallSign';
 import Header from './header/header';
 import Events from './evenets/events';
-import SupportedRepeaters from '../supportedRepeaters/supportedRepeaters';
+import SupportedRepeaters from './supportedRepeaters/supportedRepeaters';
 import DMR from './DMR/dmr';
 import Footer from './footer/footer';
+import "./App.css"
 
 function App() {
   const [memberRoster, setMemberRoster] = useState(null)
@@ -16,7 +17,7 @@ function App() {
   const [userId, setUserId] = useState(0)
 
   return (
-    <div>
+    <div className="content">
       <Route path='/'>
         <Header userId={userId} setUserId={setUserId} />
         <About />
