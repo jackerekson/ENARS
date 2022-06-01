@@ -1,11 +1,10 @@
 .header{
-    background-image: url('../picture/background.jpg');
+    /* background-image: url('../picture/newbackground.jpg'); */
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: row;
-    align-items: end;
     justify-content: space-around;
     height: 20vh;
-    width: 100vw;
+    width: 99vw;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
@@ -20,3 +19,25 @@
     color: rgb(207, 207, 207);
 }
 
+.burgerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    padding-left: 89vw;
+    margin-top: 29px;
+    padding-top: 3px;
+}
+
+.burger{
+    height: 5px;
+    background-color: black;
+    width: 30px;
+}
+
+headerBackground{
+    position: relative;
+}

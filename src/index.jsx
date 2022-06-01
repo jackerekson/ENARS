@@ -5,5 +5,5 @@ import Practice from './practice';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Practice />
+    <App />
 );
