@@ -12,12 +12,14 @@
 }
 
 .headerBox{
+    display: flex;
+    justify-content: space-around;
     height: 8vh;
     text-align: center;
 }
 
 .headerText{
-    
+    margin-top: 2.5vh;
 }
 
 .headerImg{
@@ -32,9 +34,7 @@
     align-items: center;
     height: 30px;
     width: 50px;
-    position: absolute;
-    padding-left: 87vw;
-    margin-top: -306px;
+    margin-top:2.25vh;
     padding-top: 3px;
 }
 

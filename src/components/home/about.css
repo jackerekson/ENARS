@@ -5,3 +5,8 @@
 .home{
     height: 65vh;
 }
+
+.overPicText{
+    display: flex;
+    margin-top: -15;
+}

@@ -11,11 +11,11 @@ const Header = ({ setUserId, userId }) => {
         <div className='header'>
             <div className='headerBox'>
                 <p className="headerText">Eastern Nevada Amature Radio Society</p>
-            </div>
-            <div onClick={e=>setShowHamburger(true)} className='burgerContainer'>
-                <div className='burger'></div>
-                <div className='burger'></div>
-                <div className='burger'></div>
+                <div onClick={e=>setShowHamburger(true)} className='burgerContainer'>
+                    <div className='burger'></div>
+                    <div className='burger'></div>
+                    <div className='burger'></div>
+                </div>
             </div>
             <img src="../picture/newbackground.jpg" alt="background" className="headerImg"/>
         </div> 
