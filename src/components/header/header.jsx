@@ -9,7 +9,7 @@ const Header = ({ setUserId, userId }) => {
     if(!showHamburger){
         return(
         <div className='header'>
-            <img src="./newbackground.jpg" alt="background"/>
+            <img src="../picture/newbackground.jpg" alt="background"/>
             <div onClick={e=>setShowHamburger(true)} className='burgerContainer'>
                 <div className='burger'></div>
                 <div className='burger'></div>
