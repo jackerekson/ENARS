@@ -9,17 +9,24 @@ const Header = ({ setUserId, userId }) => {
     if(!showHamburger){
         return(
         <div className='header'>
-            <img src="../picture/newbackground.jpg" alt="background"/>
+            <div className='headerBox'>
+                <p className="headerText">Eastern Nevada Amature Radio Society</p>
+            </div>
             <div onClick={e=>setShowHamburger(true)} className='burgerContainer'>
                 <div className='burger'></div>
                 <div className='burger'></div>
                 <div className='burger'></div>
             </div>
+            <img src="../picture/newbackground.jpg" alt="background" className="headerImg"/>
         </div> 
         )
     }
     return (
         <div className='header'>
+            <div className='headerBox'>
+                <p className="headerText">Eastern Nevada Amature Radio Society</p>
+            </div>
+            <img src="../picture/newbackground.jpg" alt="background" className="headerImg"/>
             <Menu userId={userId} showHamburger={showHamburger} setShowHamburger={setShowHamburger} setUserId={setUserId} />
         </div>
     )

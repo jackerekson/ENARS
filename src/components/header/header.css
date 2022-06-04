@@ -2,21 +2,27 @@
     /* background-image: url('../picture/newbackground.jpg'); */
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    height: 20vh;
+    height: 60vh;
     width: 99vw;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
 }
 
-.item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 14vw;
-    height: 5vh;
-    color: rgb(207, 207, 207);
+.headerBox{
+    height: 8vh;
+    text-align: center;
+}
+
+.headerText{
+    
+}
+
+.headerImg{
+    height: 33vh;
+    width: 103vw;
 }
 
 .burgerContainer{
@@ -27,14 +33,14 @@
     height: 30px;
     width: 50px;
     position: absolute;
-    padding-left: 89vw;
-    margin-top: 29px;
+    padding-left: 87vw;
+    margin-top: -306px;
     padding-top: 3px;
 }
 
 .burger{
     height: 5px;
-    background-color: black;
+    background-color: rgb(255, 106, 0);
     width: 30px;
 }
 

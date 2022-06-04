@@ -1,6 +1,6 @@
 .modal {
     position: fixed;
-    left: 0;
+    left: -45;
     top: 0;
     right: 0;
     bottom: 0;
@@ -10,7 +10,7 @@
     justify-content: center;
     z-index: 1000;
     height: 100vh;
-    padding-left: 50vw;
+    padding-left: 200vw;
 
     animation-name:moveInRight;
     animation-duration: .5s;
@@ -18,10 +18,19 @@
 }
 
 .modal-header, .modal-footer {
-    padding: 10px;
-    height: 70vh;
+    padding: 6px;
+    height: 40vh;
     display: flex;
     align-items: center;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    height: 8vh;
+    color: rgb(108, 108, 108);
 }
 
 .modal-title{

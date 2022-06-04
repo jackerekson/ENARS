@@ -20,13 +20,13 @@ const Menu = ({setShowHamburger, userId} ) => {
                             Member Roster
                         </Link>
                         <Link href= '/supportedRepeaters' className='item'>
-                        Supported Repeaters
+                            Supported Repeaters
                         </Link>
                         <Link href='/DMR/APRS/Packet' className='item'>
-                        DMR/APRS/Packet
+                            DMR/APRS/Packet
                         </Link>
                         <Link href='/callSign' className='item'>
-                            Find by Call Sign
+                            Call Search
                         </Link>
                         <Link href='/events' className='item'>
                             Events
