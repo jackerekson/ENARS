@@ -48,10 +48,12 @@ function App() {
         <Footer />
       </Route>
 
-      <Route path='/callSign'>
-        <Header userId={userId} setUserId={setUserId} />
-        <CallSign callSign={callSign} setCallSign={setCallSign} />
-        <Footer />
+      <Route path='/callSign' >
+        <div className="callSignPage">
+          <Header userId={userId} setUserId={setUserId} />
+          <CallSign callSign={callSign} setCallSign={setCallSign} />
+          <Footer />
+        </div>
       </Route>
       
       <Route path='/events'>

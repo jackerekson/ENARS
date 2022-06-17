@@ -1,7 +1,21 @@
-.content{
+/* .content{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 96vh;
     width: 99vw;
+} */
+
+.callSignPage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #657f8ab1, 
+        #dfdfdfb6),
+    url('./picture/callSign.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }

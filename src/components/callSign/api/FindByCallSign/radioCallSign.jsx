@@ -24,12 +24,12 @@ const CallSign = () => {
 
 
     return (
-        <div className='buttons gas'>
-            <div className='gasButtons'>
+        <div className='inputContent'>
+            <div className='inputCallSign'>
                 <input type="text" placeholder='Call Sign' onChange={handleChange} />
                 <button onClick={handleClick}>Submit</button>
             </div>
-            <div className='gasList'>
+            <div className='operatorInfo'>
                 <GetHamsInfo info={info} />
             </div>
         </div>

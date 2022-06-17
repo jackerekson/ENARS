@@ -1,0 +1,16 @@
+.inputCallSign{
+    justify-content: center;
+    display: flex;
+}
+
+.operatorInfo {
+    justify-content: center;
+    display: flex;
+}
+
+.inputContent {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-between;
+}

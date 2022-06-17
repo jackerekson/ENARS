@@ -17,7 +17,6 @@ const Header = ({ setUserId, userId }) => {
                     <div className='burger'></div>
                 </div>
             </div>
-            <img src="../picture/newbackground.jpg" alt="background" className="headerImg"/>
         </div> 
         )
     }
@@ -26,7 +25,6 @@ const Header = ({ setUserId, userId }) => {
             <div className='headerBox'>
                 <p className="headerText">Eastern Nevada Amature Radio Society</p>
             </div>
-            <img src="../picture/newbackground.jpg" alt="background" className="headerImg"/>
             <Menu userId={userId} showHamburger={showHamburger} setShowHamburger={setShowHamburger} setUserId={setUserId} />
         </div>
     )
