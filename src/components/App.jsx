@@ -19,33 +19,43 @@ function App() {
   return (
     <div className="content">
       <Route path='/'>
-        <Header userId={userId} setUserId={setUserId} />
-        <About />
-        <Footer />
+        <div className='homePage'>
+          <Header userId={userId} setUserId={setUserId} />
+          <About />
+          <Footer />
+        </div>
       </Route>
 
       <Route path='/officers'>
-        <Header userId={userId} setUserId={setUserId} />
-        <Officers />
-        <Footer />
+        <div className='officersPage'>
+          <Header userId={userId} setUserId={setUserId} />
+          <Officers />
+          <Footer />
+        </div>
       </Route>
 
       <Route path='/roster'>
-        <Header userId={userId} setUserId={setUserId} />
-        <Members memberRoster={memberRoster} setMemberRoster={setMemberRoster}/>
-        <Footer />
+        <div className='rosterPage'>
+          <Header userId={userId} setUserId={setUserId} />
+          <Members memberRoster={memberRoster} setMemberRoster={setMemberRoster}/>
+          <Footer />
+        </div>
       </Route>
 
       <Route path='/supportedRepeaters'>
-        <Header userId={userId} setUserId={setUserId} />
-        <SupportedRepeaters />
-        <Footer />
+        <div className='supportedRepeatersPage'>
+          <Header userId={userId} setUserId={setUserId} />
+          <SupportedRepeaters />
+          <Footer />
+        </div>
       </Route>
 
       <Route path='/DMR/APRS/Packet'>
-        <Header userId={userId} setUserId={setUserId} />
-        <DMR />
-        <Footer />
+        <div className='packetPage'>
+          <Header userId={userId} setUserId={setUserId} />
+          <DMR />
+          <Footer />
+        </div>
       </Route>
 
       <Route path='/callSign' >
@@ -57,9 +67,11 @@ function App() {
       </Route>
       
       <Route path='/events'>
-        <Header userId={userId} setUserId={setUserId} />
-        <Events />
-        <Footer />
+        <div className='eventsPage'>
+          <Header userId={userId} setUserId={setUserId} />
+          <Events />
+          <Footer />
+        </div>
       </Route>
     </div>
   );

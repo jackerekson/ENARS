@@ -1,0 +1,13 @@
+.memberButton{
+    display: flex;
+    justify-content: center;
+}
+
+.memberButton button {
+    height: 50px;
+    width: 200px;
+}
+
+.memberList {
+    height: 60vh;
+}

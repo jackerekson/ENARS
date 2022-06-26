@@ -10,7 +10,7 @@ const Header = ({ setUserId, userId }) => {
         return(
         <div className='header'>
             <div className='headerBox'>
-                <p className="headerText">Eastern Nevada Amature Radio Society</p>
+                <img className='logo' src='./picture/enarsLogo.jpg' alt="logo" />
                 <div onClick={e=>setShowHamburger(true)} className='burgerContainer'>
                     <div className='burger'></div>
                     <div className='burger'></div>

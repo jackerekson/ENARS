@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+}
+
+.pres{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 5px;
+}
+
+.vp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

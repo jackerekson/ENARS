@@ -6,6 +6,76 @@
     width: 99vw;
 } */
 
+.homePage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #657f8ab1, 
+        #dfdfdfb6),
+    url('./picture/radio-rptr.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.officersPage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #657f8ab1, 
+        #dfdfdfb6),
+    url('./picture/extra4.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rosterPage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #657f8ab1, 
+        #dfdfdfb6),
+    url('./picture/extra.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.supportedRepeatersPage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #657f8ab1, 
+        #dfdfdfb6),
+    url('./picture/extra1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.packetPage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #657f8ab1, 
+        #dfdfdfb6),
+    url('./picture/extra2.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .callSignPage{
     display: flex;
     justify-content: space-between;
@@ -16,6 +86,20 @@
         #657f8ab1, 
         #dfdfdfb6),
     url('./picture/callSign.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eventsPage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #657f8ab1, 
+        #dfdfdfb6),
+    url('./picture/extra3.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
 }

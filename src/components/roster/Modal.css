@@ -17,11 +17,12 @@
     animation-timing-function: ease-out;
 }
 
-.modal-header, .modal-footer {
+.modal-headers, .modal-footers {
     padding: 6px;
     height: 40vh;
     display: flex;
     align-items: center;
+    margin-top: -20vh;
 }
 
 .item{
@@ -30,7 +31,7 @@
     justify-content: center;
     width: 45vw;
     height: 8vh;
-    color: rgb(192, 31, 31);
+    color: rgb(108, 108, 108);
 }
 
 .modal-title{
@@ -45,7 +46,6 @@
 
 .modal-content{
     background-color:rgb(255, 187, 0);
-    color: rgb(192, 31, 31);
     padding: 5vw;
     height: 69vh;
     width: 50vw;

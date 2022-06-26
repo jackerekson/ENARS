@@ -35,10 +35,16 @@
 
 .burger{
     height: 5px;
-    background-color: rgb(255, 106, 0);
+    background-color: rgb(255, 187, 0);
     width: 30px;
 }
 
 headerBackground{
     position: relative;
+}
+
+.logo{
+    width: 45vw;
+    height: 80%;
+    margin-top: 1.5vh;
 }
