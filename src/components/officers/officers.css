@@ -1,17 +1,23 @@
-.title{
-    text-align: center;
+.title {
+  text-align: center;
+  margin-bottom: 2em;
 }
 
-.pres{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    border-bottom: 5px;
+.pres {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 5px;
 }
 
-.vp{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.vp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 2em;
+  color: rgb(255,187,0);
 }

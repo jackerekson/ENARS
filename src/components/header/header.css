@@ -1,50 +1,23 @@
-.header{
-    /* background-image: url('../picture/newbackground.jpg'); */
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.header {
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0.1em 0.5em 0 #777;
 }
 
-.headerBox{
-    display: flex;
-    justify-content: space-around;
-    height: 8vh;
-    text-align: center;
+.headerText {
+  margin-top: 2.5vh;
 }
 
-.headerText{
-    margin-top: 2.5vh;
+.menu-toggle {
+  position: fixed;
+  font-size: 2em;
+  right: 5%;
+  top: 2.5%;
+  z-index: 999;
 }
 
-.headerImg{
-    height: 33vh;
-    width: 103vw;
-}
-
-.burgerContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 30px;
-    width: 50px;
-    margin-top:2.25vh;
-    padding-top: 3px;
-}
-
-.burger{
-    height: 5px;
-    background-color: rgb(255, 187, 0);
-    width: 30px;
-}
-
-headerBackground{
-    position: relative;
-}
-
-.logo{
-    width: 45vw;
-    height: 80%;
-    margin-top: 1.5vh;
+.logo {
+  width: 45vw;
+  height: 80%;
+  margin-top: 1.5vh;
 }

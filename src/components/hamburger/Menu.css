@@ -1,90 +1,63 @@
 .modal {
-    position: fixed;
-    left: -45;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-    height: 100vh;
-    padding-left: 200vw;
-
-    animation-name:moveInRight;
-    animation-duration: .5s;
-    animation-timing-function: ease-out;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
 }
 
-.modal-header, .modal-footer {
-    padding: 6px;
-    height: 40vh;
-    display: flex;
-    align-items: center;
+.modal-content {
+  position: absolute;
+  right: 0;
+  background-color: rgb(255, 187, 0);
+  color: rgb(192, 31, 31);
+  width: 50vw;
+  height: 100%;
+  border-radius: 2em 0 0 2em;
+  animation-name: moveInRight;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
 }
 
-.item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45vw;
-    height: 8vh;
-    color: rgb(192, 31, 31);
+.modal-header {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.modal-title{
-    margin: 0;
+.item {
+  color: rgb(192, 31, 31);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.75em;
+  margin: 0.75em 0;
 }
 
-.modal-body{
-    padding: 10px;
-    border-top: 1px solid rgba(238, 238, 238, 0.589);
-    border-bottom: 1px solid rgba(238, 238, 238, 0.589);
-}
-
-.modal-content{
-    background-color:rgb(255, 187, 0);
-    color: rgb(192, 31, 31);
-    padding: 5vw;
-    height: 69vh;
-    width: 50vw;
-    border-top-left-radius: 100vh;
-    border-bottom-left-radius: 100vh;
-    padding-left: 9vw;
-    padding-top: 30vh;
-}
-
-.modal-info{
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (min-width: 767px){
-    .modal-content{
-        padding-top: 36vh;
-        height: 100vh;
-    }
-
-    .modal{
-        padding-left: 61vw;
-
-        animation-name:moveInRight;
-        animation-duration: .5s;
-        animation-timing-function: ease-out;
-    }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes moveInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(30rem)
-    }
-    80% {
-        transform: translateX(0rem);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(100vw);
+  }
+  80% {
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -5,101 +5,89 @@
     height: 96vh;
     width: 99vw;
 } */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
-.homePage{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 200vh;
-    background-image: linear-gradient(
-        to right bottom,
-        #657f8ab1, 
-        #dfdfdfb6),
-    url('./picture/radio-rptr.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+* {
+  font-family: "Roboto Slab", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.officersPage{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    background-image: linear-gradient(
-        to right bottom,
-        #657f8ab1, 
-        #dfdfdfb6),
-    url('./picture/extra4.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+.homePage {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: linear-gradient(to right bottom, #657f8ab1, #dfdfdfb6),
+    url("./picture/radio-rptr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.rosterPage{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    background-image: linear-gradient(
-        to right bottom,
-        #657f8ab1, 
-        #dfdfdfb6),
-    url('./picture/extra.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+.officersPage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: linear-gradient(to right bottom, #657f8ab1, #dfdfdfb6),
+    url("./picture/extra4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.supportedRepeatersPage{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    background-image: linear-gradient(
-        to right bottom,
-        #657f8ab1, 
-        #dfdfdfb6),
-    url('./picture/extra1.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+.rosterPage {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-image: linear-gradient(to right bottom, #657f8ab1, #dfdfdfb6),
+    url("./picture/extra.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.packetPage{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    background-image: linear-gradient(
-        to right bottom,
-        #657f8ab1, 
-        #dfdfdfb6),
-    url('./picture/extra2.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+.supportedRepeatersPage {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #657f8ab1, #dfdfdfb6),
+    url("./picture/extra1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.callSignPage{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    background-image: linear-gradient(
-        to right bottom,
-        #657f8ab1, 
-        #dfdfdfb6),
-    url('./picture/callSign.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+.packetPage {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #657f8ab1, #dfdfdfb6),
+    url("./picture/extra2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.eventsPage{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    background-image: linear-gradient(
-        to right bottom,
-        #657f8ab1, 
-        #dfdfdfb6),
-    url('./picture/extra3.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+.callSignPage {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #657f8ab1, #dfdfdfb6),
+    url("./picture/callSign.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eventsPage {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #657f8ab1, #dfdfdfb6),
+    url("./picture/extra3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

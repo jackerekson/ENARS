@@ -1,16 +1,42 @@
-.inputCallSign{
-    justify-content: center;
-    display: flex;
+.callSignForm {
+  margin: 0 auto;
+  width: 85%;
+  height: 25%;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  box-shadow: 0 0.1em 0.25em 0 #777;
 }
-
+.callSignForm input {
+  margin-bottom: 2em;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  border-radius: 0.25em;
+  text-align: center;
+}
+.callSignForm button {
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  outline: none;
+  border: none;
+}
 .operatorInfo {
-    justify-content: center;
-    display: flex;
+  min-height: 25%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0.1em 0.25em 0 #777;
 }
-
-.inputContent {
-    display: flex;
-    flex-direction: column;
-    height: 60vh;
-    justify-content: space-between;
+.loading {
+	min-height: 25%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
