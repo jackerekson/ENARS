@@ -1,85 +1,98 @@
-*{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.home{
-    height: 65vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.overPicText{
-    display: flex;
-    width: 95vw;
+.overPicText {
+  margin-top: 4em;
+  text-align: center;
 }
 
-.aboutENARS{
-    width: 95vw;
+.overPicText h3 strong {
+  font-size: 1.25em;
 }
 
-.container{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.aboutENARS {
+  text-align: center;
+  margin: 1em 5em;
+  line-height: 1.5em;
+  font-size: 0.75em;
+}
+
+/*flip card styles*/
+.container {
+  margin: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-    width: 380px;
-    perspective: 1000px;
-    cursor: pointer;
+  width: 380px;
+  perspective: 1000px;
+  cursor: pointer;
 }
 
-.card-inner{
-    position: relative;
-    width: 100%;
-    height: 25vh;
-    text-align: center;
-    transform-style: preserve-3d;
-    transition: transform 2s;
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 25vh;
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 1.25s;
 }
 
-.front-face{
-    color: rgb(192, 31, 31);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backface-visibility: hidden;
-    background: rgb(255, 187, 0);
-    height:100%;
-    border-radius: 10px;
+.front-face {
+  color: rgb(192, 31, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+  background: rgb(255, 187, 0);
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0.25em 0.5em 0 #555;
 }
 
-.back-face{
-    color: rgb(192, 31, 31);
-    backface-visibility: hidden;
-    background: rgb(255, 187, 0);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transform: rotateY(180deg);
+.back-face {
+  padding: 0 4em;
+  backface-visibility: hidden;
+  background: rgb(255, 187, 0);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotateY(180deg);
+  font-size: 0.75em;
+  box-shadow: 0 0.25em 0.5em 0 #555;
 }
 
-.front-face h1{
-    font-size: 50px;
-    margin-top: 10px;
-    font-weight: 400;
+.front-face h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  font-weight: 400;
 }
 
-.back-face p{
-    font-size: 26px;
-    font-weight: 300;
+.back-face p {
+  font-weight: 300;
+}
+
+.back-face h4 {
+color: rgb(192, 31, 31);
 }
 
 .card:hover .card-inner {
-    transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }

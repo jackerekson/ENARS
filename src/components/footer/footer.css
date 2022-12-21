@@ -1,20 +1,22 @@
-.footer{
-    height: 10vh;
+.footer {
+	margin-top: 1em;
+  width: 100vw;
+  padding: 1em 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 -0.1em 0.5em 0 #777;
 }
 
-.footerContents{
-    display: flex;
-    justify-content: space-between;
-    width: 99vw;
-    height: 10vh;
+.footerContents {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.contents{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    height: 10vh;
-    color: rgb(24, 17, 0);
-    text-align: center;
+.footerContents p {
+  text-align: center;
+}
+
+.footerContents a {
+  text-decoration: none;
+  color: #000;
 }

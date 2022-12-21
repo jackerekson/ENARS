@@ -1,33 +1,28 @@
-import React, { useState } from 'react'
-import Menu from '../hamburger/Menu'
-import './header.css'
+import React, { useState } from "react";
+import { RiMenu3Fill } from "react-icons/ri";
+import Menu from "../hamburger/Menu";
+import "./header.css";
 
 const Header = ({ setUserId, userId }) => {
-    const [showHamburger, setShowHamburger] = useState(false)
-    
-    
-    if(!showHamburger){
-        return(
-        <div className='header'>
-            <div className='headerBox'>
-                <img className='logo' src='./picture/enarsLogo.jpg' alt="logo" />
-                <div onClick={e=>setShowHamburger(true)} className='burgerContainer'>
-                    <div className='burger'></div>
-                    <div className='burger'></div>
-                    <div className='burger'></div>
-                </div>
-            </div>
-        </div> 
-        )
-    }
-    return (
-        <div className='header'>
-            <div className='headerBox'>
-                <p className="headerText">Eastern Nevada Amature Radio Society</p>
-            </div>
-            <Menu userId={userId} showHamburger={showHamburger} setShowHamburger={setShowHamburger} setUserId={setUserId} />
-        </div>
-    )
+  const [showHamburger, setShowHamburger] = useState(false);
+
+  return (
+    <header className="header">
+      <div className="headerBox">
+        <img className="logo" src="./picture/enarsLogo.jpg" alt="logo" />
+        <RiMenu3Fill onClick={() => setShowHamburger(true)} className="menu-toggle"/>
+      </div>
+      {showHamburger ? (
+        <Menu
+          userId={userId}
+          showHamburger={showHamburger}
+          setShowHamburger={setShowHamburger}
+          setUserId={setUserId}
+        />
+      ) : (
+        ""
+      )}
+    </header>
 
     // if(!userId){
     //     return(
@@ -71,6 +66,7 @@ const Header = ({ setUserId, userId }) => {
     //         <a href='/' onClick={e=>setUserId(null)}>Logout</a>
     //     </div>
     // )
-}
+  );
+};
 
-export default Header
+export default Header;

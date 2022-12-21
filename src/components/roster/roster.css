@@ -1,13 +1,12 @@
-.memberButton{
-    display: flex;
-    justify-content: center;
+.memberButton {
+  display: flex;
+  justify-content: center;
 }
 
 .memberButton button {
-    height: 50px;
-    width: 200px;
-}
-
-.memberList {
-    height: 60vh;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
 }
